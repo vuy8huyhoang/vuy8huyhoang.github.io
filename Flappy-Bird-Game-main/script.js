@@ -28,7 +28,7 @@ document.addEventListener('keydown', (e) => {
         bird.style.top = '40vh';
         game_state = 'Play';
         message.innerHTML = '';
-        score_title.innerHTML = 'Score : ';
+        score_title.innerHTML = 'Điểm : ';
         score_val.innerHTML = '0';
         message.classList.remove('messageStyle');
         play();

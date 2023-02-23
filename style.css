@@ -262,6 +262,11 @@ ul.navbar li a:hover:not(.active){
     background-size: cover;
     background-position: center;
 }
+.section-1-img .img13{
+    background: url(anh/flap.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .section-1-img .img14{
     background: url(anh/xe.jpg);
     background-size: cover;

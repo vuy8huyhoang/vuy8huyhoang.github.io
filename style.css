@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family:'Times New Roman', Times, serif;
+    height: 300vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(anh/God-of-War-Ragnarok-Sequel.webp);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 10vhb;
+    background-position: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background-color: aquamarine;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    color: white;
+    clip-path: polygon(0 0,100% 0,64% 100%,0% 100%);
+    padding: 10px;
+    line-height: 1,3rem;
+    opacity: 0.65;
+}
+.logo:hover{
+    background-color: chocolate;
+    color: black;
+}
+.logo ion-icon{
+    font-size: 50px;
+}
+.logo p{
+    width: 150px;
+    font-size: 25px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+
+}
+ul.navbar li{
+    width: 160px;
+    margin-left: 10px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px black;
+}
+ul.navbar li a.active{
+    color: aqua;
+}
+ul.navbar li a:hover:not(.active){
+    color: aqua;
+}
+#btn{
+    width: 300px;
+    height: 10vh;
+    background-color: chocolate;
+    color: white;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0,100% 0,100% 100%,0 100%);
+    font-size: 25px;
+    opacity: 0.65;
+    font-weight: bold;
+    padding-right: 40px;
+    text-align: right;
+}
+#btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
+#btn ion-icon{
+    margin-right: 10px;
+
+}
+.content-wrapper{
+    width: 100%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+}
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 10px black;
+}
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 10px black;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    opacity: 0.65;
+    font-weight: 700;
+    margin-top: 15px;
+    clip-path: polygon(0 0,74% 0,100% 100%,0 100%);
+    border-radius: 20px;
+    text-align: left;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+#btn2:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.image{
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+.image::after{
+    content: '';
+    width: 500px;
+    height: 600px;
+    background: url('anh/fuck-removebg-preview.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    right:50px;
+    opacity: 0.7;
+}
+.logo-section{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    opacity: 0.65;
+    width: 100%;
+    padding-left: 600px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.logo-section ion-icon{
+    font-size: 6rem;
+    color: white;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.767),rgba(0,0,0,0.767)),url(anh/game2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section1 h1{
+    padding-top: 30px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 450;
+    text-shadow: 5px 5px 10px black;
+}
+.section-1-img{
+    display: flex;
+
+}
+.section-1-img .img{
+    width: 250px;
+    height: 170px;
+    background: url(anh/god-of-war-ragnarok-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.section-1-img .img2{
+    background: url(anh/gam3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img3{
+    background: url(anh/gam9.webp);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img4{
+    background: url(anh/game6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+
+.section-1-img .img5{
+    background: url(anh/chesslg.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img6{
+    background: url(anh/cotuong.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img7{
+    background: url(anh/sudoku.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img8{
+    background: url(anh/conhay.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img9{
+    background: url(anh/flap.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img10{
+    background: url(anh/cotuong.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img11{
+    background: url(anh/sudoku.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img12{
+    background: url(anh/conhay.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.767),rgba(0,0,0,0.767)),url(anh/br2.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.65px;
+}
+.section2 h1{
+    padding-top: 30px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 450;
+    text-shadow: 5px 5px 10px black;
+}

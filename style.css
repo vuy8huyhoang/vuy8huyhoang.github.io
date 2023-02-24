@@ -83,7 +83,7 @@ ul.navbar li a:hover:not(.active){
     font-size: 25px;
     opacity: 0.65;
     font-weight: bold;
-    padding-right: 40px;
+    padding-right: 45px;
     text-align: right;
 }
 #btn:hover{

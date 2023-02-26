@@ -86,11 +86,11 @@ ul.navbar li a:hover:not(.active){
     padding-right: 45px;
     text-align: right;
 }
-#btn:hover{
+.btn:hover{
     background-color: aquamarine;
     color: black;
 }
-#btn ion-icon{
+.btn ion-icon{
 }
 .content-wrapper{
     width: 100%;
